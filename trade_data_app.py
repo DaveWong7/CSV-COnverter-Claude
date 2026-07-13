@@ -282,7 +282,7 @@ def build_excel(df: pd.DataFrame) -> bytes:
 # --------------------------------------------------------------------------
 
 st.set_page_config(page_title="Taiwan Trade Data Merger", layout="centered")
-st.title("📦 Taiwan Trade CSV → Formatted Excel")
+st.title("Trade CSV → Excel")
 st.write(
     "Upload one or more customs trade CSV files. The app will clean, reorder, "
     "translate, convert dates, and merge them into a single ready-to-use Excel file."
